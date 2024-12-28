@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>مركز التعليم المستمر</title>
+	<atom:link href="https://haider96-s.github.io/cont/feed/" rel="self" type="application/rss+xml" />
+	<link>https://haider96-s.github.io/cont</link>
+	<description></description>
+	<lastBuildDate>Sat, 28 Dec 2024 16:27:02 +0000</lastBuildDate>
+	<language>ar</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.6.1</generator>
+	<item>
+		<title>أهلاً بالعالم !</title>
+		<link>https://haider96-s.github.io/cont/2024/12/28/%d8%a3%d9%87%d9%84%d8%a7-%d8%a8%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85/</link>
+					<comments>https://haider96-s.github.io/cont/2024/12/28/%d8%a3%d9%87%d9%84%d8%a7-%d8%a8%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85/#comments</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sat, 28 Dec 2024 16:27:02 +0000</pubDate>
+				<category><![CDATA[غير مصنف]]></category>
+		<guid isPermaLink="false">https://haider96-s.github.io/cont/?p=1</guid>
+
+					<description><![CDATA[مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!]]></description>
+										<content:encoded><![CDATA[
+<p>مرحباً بك في ووردبريس. هذه مقالتك الأولى. حررّها أو احذفها، ثم ابدأ النشر!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://haider96-s.github.io/cont/2024/12/28/%d8%a3%d9%87%d9%84%d8%a7-%d8%a8%d8%a7%d9%84%d8%b9%d8%a7%d9%84%d9%85/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
