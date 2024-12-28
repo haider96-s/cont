@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5dfc6dce5c975185345e84e43202515d",
+    "packages": [
+        {
+            "name": "wpify/custom-fields",
+            "version": "3.9.4",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.com:wpify/custom-fields.git",
+                "reference": "ce245a95e09d27c4a6c302e52e6ba235ac8df510"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.com/api/v4/projects/wpify%2Fcustom-fields/repository/archive.zip?sha=ce245a95e09d27c4a6c302e52e6ba235ac8df510",
+                "reference": "ce245a95e09d27c4a6c302e52e6ba235ac8df510",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.4||<=8.1"
+            },
+            "require-dev": {
+                "symfony/var-dumper": "^v6.1.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ],
+                "psr-4": {
+                    "Wpify\\CustomFields\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "WPify Custom Fields",
+            "time": "2023-05-07T16:07:37+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

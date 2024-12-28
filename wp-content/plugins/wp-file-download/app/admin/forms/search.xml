@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" id="search_config" method="POST"
+      action="admin.php?page=wpfd-config&amp;task=config.savesearchparams">
+    <input
+            type="heading"
+            label="Search setting"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="containerstart"
+            label="Container section"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="leftpanelstart"
+            label="Left section start"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="plain_text_search"
+            type="Plaintextsearch"
+            label="Plain text search"
+            value="0"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="Activate the plain text search in document like Word or PDF. Caution, depending on your server and documents, it may slow down the search queries"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">Off</option>
+        <option value="1">On</option>
+    </input>
+    <input
+            name="search_suggestion"
+            type="switcher"
+            label="Search suggestion"
+            value="1"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="File suggestion on Search engine"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">Off</option>
+        <option value="1">On</option>
+    </input>
+    <input
+            type="containerend"
+            label="Container section"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="rightpanelstart"
+            label="Right section start"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="include_global_search"
+            type="switcher"
+            label="Include files in wordpress search"
+            value="1"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="Include files in wordpress search results list. Just title of file are searchable"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">Off</option>
+        <option value="1">On</option>
+    </input>
+    <input
+            name="search_cache"
+            type="Searchcache"
+            label="Search cache"
+            value="0"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="Activate the search cache"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">Off</option>
+        <option value="1">On</option>
+    </input>
+    <input
+            name="cache_lifetime"
+            type="hidden"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="containerend"
+            label="Container section"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="containerend"
+            label="Container section"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

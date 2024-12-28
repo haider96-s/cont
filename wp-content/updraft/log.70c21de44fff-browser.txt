@@ -1,0 +1,440 @@
+0000.043 (R) [notice] ابحث عن الأرشيف db : اسم الملف: backup_2024-12-28-1815_localhost_test_2a2903afab30-db.gz
+0000.044 (R) [notice] من المتوقع أن يكون حجم الأرشيف: 879.2 KB: حسنا
+0000.047 (R) [notice] ابحث عن الأرشيف plugins : اسم الملف: backup_2024-12-28-1815_localhost_test_2a2903afab30-plugins.zip
+0000.047 (R) [notice] من المتوقع أن يكون حجم الأرشيف: 78198.5 KB: حسنا
+0000.050 (R) [notice] ابحث عن الأرشيف themes : اسم الملف: backup_2024-12-28-1815_localhost_test_2a2903afab30-themes.zip
+0000.051 (R) [notice] من المتوقع أن يكون حجم الأرشيف: 24336.2 KB: حسنا
+0000.053 (R) [notice] ابحث عن الأرشيف uploads : اسم الملف: backup_2024-12-28-1815_localhost_test_2a2903afab30-uploads.zip
+0000.053 (R) [notice] من المتوقع أن يكون حجم الأرشيف: 58523.5 KB: حسنا
+0000.055 (R) [notice] ابحث عن الأرشيف others : اسم الملف: backup_2024-12-28-1815_localhost_test_2a2903afab30-others.zip
+0000.055 (R) [notice] من المتوقع أن يكون حجم الأرشيف: 1323 KB: حسنا
+0000.057 (R) [notice] Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.062 (R) [notice] تفريغ النسخ الاحتياطي ... (backup_2024-12-28-1815_localhost_test_2a2903afab30-db.gz, 0.9 Mb)
+0000.064 (R) [notice] استرجاع قاعدة البيانات (بالمواقع الكبيرة ستأخد هذه العملية وقت طويل - ان واجهت مشكل انقضاء المهلة (سببه نقص في استخدام موارد السيرفر للإستضافة) يمكنك استخدام طريقة أخرى، كـ phpMyAdmin)
+0000.117 (R) [notice] تمكين وضع الصيانة &#8230;
+0000.141 (R) [notice] نسخة احتياطية من:http://localhost:81/test
+0000.162 (R) [notice] رابط المحتوى: http://localhost:81/test/wp-content
+0000.162 (R) [notice] URL الخاص بالتحميلات: http://localhost:81/test/wp-content/uploads
+0000.162 (R) [notice] بادئة الجدول القديمة: wp_
+0000.162 (R) [notice] ABSPATH قديم : C:\xampp\htdocs\test/
+0000.162 (R) [notice] UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.162 (R) [notice] معلومات عن الموقع: multisite = 0
+0000.162 (R) [notice] معلومات عن الموقع: sql_mode = NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0000.164 (R) [notice] New table prefix: zy_
+0000.172 (R) [notice] جدول المعالجة (InnoDB):  wp_options - إستعادة على النحو التالي: zy_options
+0000.531 (R) [notice] Atomic restore: dropping original table (wp_options)
+0000.538 (R) [notice] Atomic restore: renaming new table (zy_options) to final table name (wp_options)
+0001.344 (R) [notice] جدول البحث والاستبدال: wp_options: الصفوف: 654
+0001.504 (R) [notice] جدول المعالجة (InnoDB):  wp_users - إستعادة على النحو التالي: zy_users
+0001.560 (R) [notice] Atomic restore: dropping original table (wp_users)
+0001.569 (R) [notice] Atomic restore: renaming new table (zy_users) to final table name (wp_users)
+0001.584 (R) [notice] جدول البحث والاستبدال: wp_users: الصفوف: 1
+0001.588 (R) [notice] جدول المعالجة (InnoDB):  wp_usermeta - إستعادة على النحو التالي: zy_usermeta
+0001.636 (R) [notice] Atomic restore: dropping original table (wp_usermeta)
+0001.644 (R) [notice] Atomic restore: renaming new table (zy_usermeta) to final table name (wp_usermeta)
+0001.657 (R) [notice] جدول البحث والاستبدال: wp_usermeta: الصفوف: 37
+0001.658 (R) [notice] جدول المعالجة (InnoDB):  wp_actionscheduler_actions - إستعادة على النحو التالي: zy_actionscheduler_actions
+0001.734 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_actions)
+0001.738 (R) [notice] Atomic restore: renaming new table (zy_actionscheduler_actions) to final table name (wp_actionscheduler_actions)
+0001.759 (R) [notice] جدول البحث والاستبدال: wp_actionscheduler_actions: الصفوف: 45
+0001.761 (R) [notice] جدول المعالجة (InnoDB):  wp_actionscheduler_claims - إستعادة على النحو التالي: zy_actionscheduler_claims
+0001.805 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_claims)
+0001.810 (R) [notice] Atomic restore: renaming new table (zy_actionscheduler_claims) to final table name (wp_actionscheduler_claims)
+0001.827 (R) [notice] جدول البحث والاستبدال: wp_actionscheduler_claims: الصفوف: 0
+0001.827 (R) [notice] جدول المعالجة (InnoDB):  wp_actionscheduler_groups - إستعادة على النحو التالي: zy_actionscheduler_groups
+0001.872 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_groups)
+0001.877 (R) [notice] Atomic restore: renaming new table (zy_actionscheduler_groups) to final table name (wp_actionscheduler_groups)
+0001.894 (R) [notice] جدول البحث والاستبدال: wp_actionscheduler_groups: الصفوف: 3
+0001.895 (R) [notice] جدول المعالجة (InnoDB):  wp_actionscheduler_logs - إستعادة على النحو التالي: zy_actionscheduler_logs
+0001.939 (R) [notice] Atomic restore: dropping original table (wp_actionscheduler_logs)
+0001.943 (R) [notice] Atomic restore: renaming new table (zy_actionscheduler_logs) to final table name (wp_actionscheduler_logs)
+0001.956 (R) [notice] جدول البحث والاستبدال: wp_actionscheduler_logs: الصفوف: 123
+0001.958 (R) [notice] جدول المعالجة (InnoDB):  wp_commentmeta - إستعادة على النحو التالي: zy_commentmeta
+0002.005 (R) [notice] Atomic restore: dropping original table (wp_commentmeta)
+0002.014 (R) [notice] Atomic restore: renaming new table (zy_commentmeta) to final table name (wp_commentmeta)
+0002.027 (R) [notice] جدول البحث والاستبدال: wp_commentmeta: الصفوف: 0
+0002.027 (R) [notice] جدول المعالجة (InnoDB):  wp_comments - إستعادة على النحو التالي: zy_comments
+0002.090 (R) [notice] Atomic restore: dropping original table (wp_comments)
+0002.100 (R) [notice] Atomic restore: renaming new table (zy_comments) to final table name (wp_comments)
+0002.116 (R) [notice] جدول البحث والاستبدال: wp_comments: الصفوف: 2
+0002.120 (R) [notice] جدول المعالجة (InnoDB):  wp_e_notes - إستعادة على النحو التالي: zy_e_notes
+0002.201 (R) [notice] Atomic restore: dropping original table (wp_e_notes)
+0002.207 (R) [notice] Atomic restore: renaming new table (zy_e_notes) to final table name (wp_e_notes)
+0002.226 (R) [notice] جدول البحث والاستبدال: wp_e_notes: الصفوف: 0
+0002.227 (R) [notice] جدول المعالجة (InnoDB):  wp_e_notes_users_relations - إستعادة على النحو التالي: zy_e_notes_users_relations
+0002.276 (R) [notice] Atomic restore: dropping original table (wp_e_notes_users_relations)
+0002.280 (R) [notice] Atomic restore: renaming new table (zy_e_notes_users_relations) to final table name (wp_e_notes_users_relations)
+0002.295 (R) [notice] جدول البحث والاستبدال: wp_e_notes_users_relations: الصفوف: 0
+0002.296 (R) [notice] جدول المعالجة (InnoDB):  wp_links - إستعادة على النحو التالي: zy_links
+0002.336 (R) [notice] Atomic restore: dropping original table (wp_links)
+0002.347 (R) [notice] Atomic restore: renaming new table (zy_links) to final table name (wp_links)
+0002.363 (R) [notice] جدول البحث والاستبدال: wp_links: الصفوف: 0
+0002.363 (R) [notice] جدول المعالجة (InnoDB):  wp_postmeta - إستعادة على النحو التالي: zy_postmeta
+0002.716 (R) [notice] Database queries processed: 50 in 2.64 seconds
+0002.725 (R) [notice] Atomic restore: dropping original table (wp_postmeta)
+0002.734 (R) [notice] Atomic restore: renaming new table (zy_postmeta) to final table name (wp_postmeta)
+0002.760 (R) [notice] جدول البحث والاستبدال: wp_postmeta: الصفوف: 141
+0003.599 (R) [notice] جدول المعالجة (InnoDB):  wp_posts - إستعادة على النحو التالي: zy_posts
+0003.871 (R) [notice] Atomic restore: dropping original table (wp_posts)
+0003.880 (R) [notice] Atomic restore: renaming new table (zy_posts) to final table name (wp_posts)
+0003.901 (R) [notice] جدول البحث والاستبدال: wp_posts: الصفوف: 368
+0004.715 (R) [notice] جدول المعالجة (InnoDB):  wp_term_relationships - إستعادة على النحو التالي: zy_term_relationships
+0004.772 (R) [notice] Atomic restore: dropping original table (wp_term_relationships)
+0004.781 (R) [notice] Atomic restore: renaming new table (zy_term_relationships) to final table name (wp_term_relationships)
+0004.791 (R) [notice] Skipping this table: data in this table (wp_term_relationships) should not be search/replaced
+0004.791 (R) [notice] جدول المعالجة (InnoDB):  wp_term_taxonomy - إستعادة على النحو التالي: zy_term_taxonomy
+0004.838 (R) [notice] Atomic restore: dropping original table (wp_term_taxonomy)
+0004.845 (R) [notice] Atomic restore: renaming new table (zy_term_taxonomy) to final table name (wp_term_taxonomy)
+0004.858 (R) [notice] جدول البحث والاستبدال: wp_term_taxonomy: الصفوف: 83
+0004.859 (R) [notice] جدول المعالجة (InnoDB):  wp_termmeta - إستعادة على النحو التالي: zy_termmeta
+0004.906 (R) [notice] Atomic restore: dropping original table (wp_termmeta)
+0004.914 (R) [notice] Atomic restore: renaming new table (zy_termmeta) to final table name (wp_termmeta)
+0004.925 (R) [notice] جدول البحث والاستبدال: wp_termmeta: الصفوف: 97
+0004.927 (R) [notice] جدول المعالجة (InnoDB):  wp_terms - إستعادة على النحو التالي: zy_terms
+0004.973 (R) [notice] Atomic restore: dropping original table (wp_terms)
+0004.980 (R) [notice] Atomic restore: renaming new table (zy_terms) to final table name (wp_terms)
+0004.993 (R) [notice] جدول البحث والاستبدال: wp_terms: الصفوف: 83
+0004.995 (R) [notice] جدول المعالجة (InnoDB):  wp_e_events - إستعادة على النحو التالي: zy_e_events
+0005.033 (R) [notice] Atomic restore: dropping original table (wp_e_events)
+0005.037 (R) [notice] Atomic restore: renaming new table (zy_e_events) to final table name (wp_e_events)
+0005.050 (R) [notice] جدول البحث والاستبدال: wp_e_events: الصفوف: 0
+0005.050 (R) [notice] جدول المعالجة (InnoDB):  wp_e_submissions - إستعادة على النحو التالي: zy_e_submissions
+0005.150 (R) [notice] Atomic restore: dropping original table (wp_e_submissions)
+0005.155 (R) [notice] Atomic restore: renaming new table (zy_e_submissions) to final table name (wp_e_submissions)
+0005.178 (R) [notice] جدول البحث والاستبدال: wp_e_submissions: الصفوف: 0
+0005.179 (R) [notice] جدول المعالجة (InnoDB):  wp_e_submissions_actions_log - إستعادة على النحو التالي: zy_e_submissions_actions_log
+0005.243 (R) [notice] Atomic restore: dropping original table (wp_e_submissions_actions_log)
+0005.249 (R) [notice] Atomic restore: renaming new table (zy_e_submissions_actions_log) to final table name (wp_e_submissions_actions_log)
+0005.267 (R) [notice] جدول البحث والاستبدال: wp_e_submissions_actions_log: الصفوف: 0
+0005.267 (R) [notice] جدول المعالجة (InnoDB):  wp_e_submissions_values - إستعادة على النحو التالي: zy_e_submissions_values
+0005.340 (R) [notice] Atomic restore: dropping original table (wp_e_submissions_values)
+0005.343 (R) [notice] Atomic restore: renaming new table (zy_e_submissions_values) to final table name (wp_e_submissions_values)
+0005.355 (R) [notice] جدول البحث والاستبدال: wp_e_submissions_values: الصفوف: 0
+0005.355 (R) [notice] جدول المعالجة (InnoDB):  wp_frmt_form_entry - إستعادة على النحو التالي: zy_frmt_form_entry
+0005.408 (R) [notice] Atomic restore: dropping original table (wp_frmt_form_entry)
+0005.411 (R) [notice] Atomic restore: renaming new table (zy_frmt_form_entry) to final table name (wp_frmt_form_entry)
+0005.423 (R) [notice] جدول البحث والاستبدال: wp_frmt_form_entry: الصفوف: 0
+0005.423 (R) [notice] جدول المعالجة (InnoDB):  wp_frmt_form_entry_meta - إستعادة على النحو التالي: zy_frmt_form_entry_meta
+0005.464 (R) [notice] Atomic restore: dropping original table (wp_frmt_form_entry_meta)
+0005.467 (R) [notice] Atomic restore: renaming new table (zy_frmt_form_entry_meta) to final table name (wp_frmt_form_entry_meta)
+0005.483 (R) [notice] جدول البحث والاستبدال: wp_frmt_form_entry_meta: الصفوف: 0
+0005.484 (R) [notice] جدول المعالجة (InnoDB):  wp_frmt_form_reports - إستعادة على النحو التالي: zy_frmt_form_reports
+0005.509 (R) [notice] Atomic restore: dropping original table (wp_frmt_form_reports)
+0005.512 (R) [notice] Atomic restore: renaming new table (zy_frmt_form_reports) to final table name (wp_frmt_form_reports)
+0005.523 (R) [notice] جدول البحث والاستبدال: wp_frmt_form_reports: الصفوف: 1
+0005.524 (R) [notice] جدول المعالجة (InnoDB):  wp_frmt_form_views - إستعادة على النحو التالي: zy_frmt_form_views
+0005.582 (R) [notice] Atomic restore: dropping original table (wp_frmt_form_views)
+0005.588 (R) [notice] Atomic restore: renaming new table (zy_frmt_form_views) to final table name (wp_frmt_form_views)
+0005.608 (R) [notice] جدول البحث والاستبدال: wp_frmt_form_views: الصفوف: 0
+0005.609 (R) [notice] جدول المعالجة (InnoDB):  wp_ju_queue - إستعادة على النحو التالي: zy_ju_queue
+0005.656 (R) [notice] Atomic restore: dropping original table (wp_ju_queue)
+0005.660 (R) [notice] Atomic restore: renaming new table (zy_ju_queue) to final table name (wp_ju_queue)
+0005.676 (R) [notice] جدول البحث والاستبدال: wp_ju_queue: الصفوف: 0
+0005.676 (R) [notice] جدول المعالجة (InnoDB):  wp_ninja_charts - إستعادة على النحو التالي: zy_ninja_charts
+0005.717 (R) [notice] Atomic restore: dropping original table (wp_ninja_charts)
+0005.721 (R) [notice] Atomic restore: renaming new table (zy_ninja_charts) to final table name (wp_ninja_charts)
+0005.735 (R) [notice] جدول البحث والاستبدال: wp_ninja_charts: الصفوف: 0
+0005.735 (R) [notice] جدول المعالجة (InnoDB):  wp_ninja_table_items - إستعادة على النحو التالي: zy_ninja_table_items
+0005.771 (R) [notice] Atomic restore: dropping original table (wp_ninja_table_items)
+0005.775 (R) [notice] Atomic restore: renaming new table (zy_ninja_table_items) to final table name (wp_ninja_table_items)
+0005.786 (R) [notice] جدول البحث والاستبدال: wp_ninja_table_items: الصفوف: 54
+0005.974 (R) [notice] جدول المعالجة (InnoDB):  wp_revslider_css - إستعادة على النحو التالي: zy_revslider_css
+0006.039 (R) [notice] Atomic restore: dropping original table (wp_revslider_css)
+0006.042 (R) [notice] Atomic restore: renaming new table (zy_revslider_css) to final table name (wp_revslider_css)
+0006.056 (R) [notice] جدول البحث والاستبدال: wp_revslider_css: الصفوف: 109
+0006.066 (R) [notice] جدول المعالجة (InnoDB):  wp_revslider_layer_animations - إستعادة على النحو التالي: zy_revslider_layer_animations
+0006.087 (R) [notice] Atomic restore: dropping original table (wp_revslider_layer_animations)
+0006.091 (R) [notice] Atomic restore: renaming new table (zy_revslider_layer_animations) to final table name (wp_revslider_layer_animations)
+0006.103 (R) [notice] جدول البحث والاستبدال: wp_revslider_layer_animations: الصفوف: 0
+0006.104 (R) [notice] جدول المعالجة (InnoDB):  wp_revslider_navigations - إستعادة على النحو التالي: zy_revslider_navigations
+0006.125 (R) [notice] Atomic restore: dropping original table (wp_revslider_navigations)
+0006.129 (R) [notice] Database queries processed: 100 in 6.05 seconds
+0006.129 (R) [notice] Atomic restore: renaming new table (zy_revslider_navigations) to final table name (wp_revslider_navigations)
+0006.142 (R) [notice] جدول البحث والاستبدال: wp_revslider_navigations: الصفوف: 0
+0006.143 (R) [notice] جدول المعالجة (InnoDB):  wp_revslider_sliders - إستعادة على النحو التالي: zy_revslider_sliders
+0006.186 (R) [notice] Atomic restore: dropping original table (wp_revslider_sliders)
+0006.189 (R) [notice] Atomic restore: renaming new table (zy_revslider_sliders) to final table name (wp_revslider_sliders)
+0006.202 (R) [notice] جدول البحث والاستبدال: wp_revslider_sliders: الصفوف: 1
+0006.204 (R) [notice] جدول المعالجة (InnoDB):  wp_revslider_sliders7 - إستعادة على النحو التالي: zy_revslider_sliders7
+0006.239 (R) [notice] Atomic restore: dropping original table (wp_revslider_sliders7)
+0006.243 (R) [notice] Atomic restore: renaming new table (zy_revslider_sliders7) to final table name (wp_revslider_sliders7)
+0006.261 (R) [notice] جدول البحث والاستبدال: wp_revslider_sliders7: الصفوف: 1
+0006.267 (R) [notice] جدول المعالجة (InnoDB):  wp_revslider_slides - إستعادة على النحو التالي: zy_revslider_slides
+0006.341 (R) [notice] Atomic restore: dropping original table (wp_revslider_slides)
+0006.346 (R) [notice] Atomic restore: renaming new table (zy_revslider_slides) to final table name (wp_revslider_slides)
+0006.362 (R) [notice] جدول البحث والاستبدال: wp_revslider_slides: الصفوف: 3
+0006.380 (R) [notice] جدول المعالجة (InnoDB):  wp_revslider_slides7 - إستعادة على النحو التالي: zy_revslider_slides7
+0006.432 (R) [notice] Atomic restore: dropping original table (wp_revslider_slides7)
+0006.435 (R) [notice] Atomic restore: renaming new table (zy_revslider_slides7) to final table name (wp_revslider_slides7)
+0006.448 (R) [notice] جدول البحث والاستبدال: wp_revslider_slides7: الصفوف: 4
+0006.467 (R) [notice] جدول المعالجة (InnoDB):  wp_revslider_static_slides - إستعادة على النحو التالي: zy_revslider_static_slides
+0006.509 (R) [notice] Atomic restore: dropping original table (wp_revslider_static_slides)
+0006.513 (R) [notice] Atomic restore: renaming new table (zy_revslider_static_slides) to final table name (wp_revslider_static_slides)
+0006.526 (R) [notice] جدول البحث والاستبدال: wp_revslider_static_slides: الصفوف: 1
+0006.527 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_admin_note_actions - إستعادة على النحو التالي: zy_wc_admin_note_actions
+0006.576 (R) [notice] Atomic restore: dropping original table (wp_wc_admin_note_actions)
+0006.579 (R) [notice] Atomic restore: renaming new table (zy_wc_admin_note_actions) to final table name (wp_wc_admin_note_actions)
+0006.593 (R) [notice] جدول البحث والاستبدال: wp_wc_admin_note_actions: الصفوف: 88
+0006.687 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_admin_notes - إستعادة على النحو التالي: zy_wc_admin_notes
+0006.728 (R) [notice] Atomic restore: dropping original table (wp_wc_admin_notes)
+0006.732 (R) [notice] Atomic restore: renaming new table (zy_wc_admin_notes) to final table name (wp_wc_admin_notes)
+0006.746 (R) [notice] جدول البحث والاستبدال: wp_wc_admin_notes: الصفوف: 60
+0006.953 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_category_lookup - إستعادة على النحو التالي: zy_wc_category_lookup
+0006.990 (R) [notice] Atomic restore: dropping original table (wp_wc_category_lookup)
+0006.996 (R) [notice] Atomic restore: renaming new table (zy_wc_category_lookup) to final table name (wp_wc_category_lookup)
+0007.009 (R) [notice] جدول البحث والاستبدال: wp_wc_category_lookup: الصفوف: 7
+0007.010 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_customer_lookup - إستعادة على النحو التالي: zy_wc_customer_lookup
+0007.055 (R) [notice] Atomic restore: dropping original table (wp_wc_customer_lookup)
+0007.059 (R) [notice] Atomic restore: renaming new table (zy_wc_customer_lookup) to final table name (wp_wc_customer_lookup)
+0007.077 (R) [notice] جدول البحث والاستبدال: wp_wc_customer_lookup: الصفوف: 0
+0007.077 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_download_log - إستعادة على النحو التالي: zy_wc_download_log
+0007.123 (R) [notice] Atomic restore: dropping original table (wp_wc_download_log)
+0007.126 (R) [notice] Atomic restore: renaming new table (zy_wc_download_log) to final table name (wp_wc_download_log)
+0007.142 (R) [notice] جدول البحث والاستبدال: wp_wc_download_log: الصفوف: 0
+0007.142 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_order_addresses - إستعادة على النحو التالي: zy_wc_order_addresses
+0007.191 (R) [notice] Atomic restore: dropping original table (wp_wc_order_addresses)
+0007.195 (R) [notice] Atomic restore: renaming new table (zy_wc_order_addresses) to final table name (wp_wc_order_addresses)
+0007.211 (R) [notice] جدول البحث والاستبدال: wp_wc_order_addresses: الصفوف: 0
+0007.211 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_order_coupon_lookup - إستعادة على النحو التالي: zy_wc_order_coupon_lookup
+0007.252 (R) [notice] Atomic restore: dropping original table (wp_wc_order_coupon_lookup)
+0007.257 (R) [notice] Atomic restore: renaming new table (zy_wc_order_coupon_lookup) to final table name (wp_wc_order_coupon_lookup)
+0007.271 (R) [notice] جدول البحث والاستبدال: wp_wc_order_coupon_lookup: الصفوف: 0
+0007.271 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_order_operational_data - إستعادة على النحو التالي: zy_wc_order_operational_data
+0007.324 (R) [notice] Atomic restore: dropping original table (wp_wc_order_operational_data)
+0007.329 (R) [notice] Atomic restore: renaming new table (zy_wc_order_operational_data) to final table name (wp_wc_order_operational_data)
+0007.347 (R) [notice] جدول البحث والاستبدال: wp_wc_order_operational_data: الصفوف: 0
+0007.348 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_order_product_lookup - إستعادة على النحو التالي: zy_wc_order_product_lookup
+0007.398 (R) [notice] Atomic restore: dropping original table (wp_wc_order_product_lookup)
+0007.401 (R) [notice] Atomic restore: renaming new table (zy_wc_order_product_lookup) to final table name (wp_wc_order_product_lookup)
+0007.429 (R) [notice] جدول البحث والاستبدال: wp_wc_order_product_lookup: الصفوف: 0
+0007.429 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_order_stats - إستعادة على النحو التالي: zy_wc_order_stats
+0007.473 (R) [notice] Atomic restore: dropping original table (wp_wc_order_stats)
+0007.477 (R) [notice] Atomic restore: renaming new table (zy_wc_order_stats) to final table name (wp_wc_order_stats)
+0007.496 (R) [notice] جدول البحث والاستبدال: wp_wc_order_stats: الصفوف: 0
+0007.496 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_order_tax_lookup - إستعادة على النحو التالي: zy_wc_order_tax_lookup
+0007.535 (R) [notice] Atomic restore: dropping original table (wp_wc_order_tax_lookup)
+0007.538 (R) [notice] Atomic restore: renaming new table (zy_wc_order_tax_lookup) to final table name (wp_wc_order_tax_lookup)
+0007.552 (R) [notice] جدول البحث والاستبدال: wp_wc_order_tax_lookup: الصفوف: 0
+0007.553 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_orders - إستعادة على النحو التالي: zy_wc_orders
+0007.605 (R) [notice] Atomic restore: dropping original table (wp_wc_orders)
+0007.608 (R) [notice] Atomic restore: renaming new table (zy_wc_orders) to final table name (wp_wc_orders)
+0007.626 (R) [notice] جدول البحث والاستبدال: wp_wc_orders: الصفوف: 0
+0007.626 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_orders_meta - إستعادة على النحو التالي: zy_wc_orders_meta
+0007.664 (R) [notice] Atomic restore: dropping original table (wp_wc_orders_meta)
+0007.667 (R) [notice] Atomic restore: renaming new table (zy_wc_orders_meta) to final table name (wp_wc_orders_meta)
+0007.679 (R) [notice] جدول البحث والاستبدال: wp_wc_orders_meta: الصفوف: 0
+0007.680 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_product_attributes_lookup - إستعادة على النحو التالي: zy_wc_product_attributes_lookup
+0007.712 (R) [notice] Atomic restore: dropping original table (wp_wc_product_attributes_lookup)
+0007.715 (R) [notice] Atomic restore: renaming new table (zy_wc_product_attributes_lookup) to final table name (wp_wc_product_attributes_lookup)
+0007.726 (R) [notice] جدول البحث والاستبدال: wp_wc_product_attributes_lookup: الصفوف: 0
+0007.727 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_product_download_directories - إستعادة على النحو التالي: zy_wc_product_download_directories
+0007.766 (R) [notice] Atomic restore: dropping original table (wp_wc_product_download_directories)
+0007.769 (R) [notice] Atomic restore: renaming new table (zy_wc_product_download_directories) to final table name (wp_wc_product_download_directories)
+0007.781 (R) [notice] جدول البحث والاستبدال: wp_wc_product_download_directories: الصفوف: 2
+0007.784 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_product_meta_lookup - إستعادة على النحو التالي: zy_wc_product_meta_lookup
+0007.846 (R) [notice] Database queries processed: 150 in 7.77 seconds
+0007.846 (R) [notice] Atomic restore: dropping original table (wp_wc_product_meta_lookup)
+0007.850 (R) [notice] Atomic restore: renaming new table (zy_wc_product_meta_lookup) to final table name (wp_wc_product_meta_lookup)
+0007.866 (R) [notice] جدول البحث والاستبدال: wp_wc_product_meta_lookup: الصفوف: 0
+0007.867 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_rate_limits - إستعادة على النحو التالي: zy_wc_rate_limits
+0007.908 (R) [notice] Atomic restore: dropping original table (wp_wc_rate_limits)
+0007.912 (R) [notice] Atomic restore: renaming new table (zy_wc_rate_limits) to final table name (wp_wc_rate_limits)
+0007.925 (R) [notice] جدول البحث والاستبدال: wp_wc_rate_limits: الصفوف: 0
+0007.926 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_reserved_stock - إستعادة على النحو التالي: zy_wc_reserved_stock
+0007.948 (R) [notice] Atomic restore: dropping original table (wp_wc_reserved_stock)
+0007.952 (R) [notice] Atomic restore: renaming new table (zy_wc_reserved_stock) to final table name (wp_wc_reserved_stock)
+0007.963 (R) [notice] جدول البحث والاستبدال: wp_wc_reserved_stock: الصفوف: 0
+0007.964 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_tax_rate_classes - إستعادة على النحو التالي: zy_wc_tax_rate_classes
+0008.007 (R) [notice] Atomic restore: dropping original table (wp_wc_tax_rate_classes)
+0008.011 (R) [notice] Atomic restore: renaming new table (zy_wc_tax_rate_classes) to final table name (wp_wc_tax_rate_classes)
+0008.025 (R) [notice] جدول البحث والاستبدال: wp_wc_tax_rate_classes: الصفوف: 2
+0008.026 (R) [notice] جدول المعالجة (InnoDB):  wp_wc_webhooks - إستعادة على النحو التالي: zy_wc_webhooks
+0008.073 (R) [notice] Atomic restore: dropping original table (wp_wc_webhooks)
+0008.077 (R) [notice] Atomic restore: renaming new table (zy_wc_webhooks) to final table name (wp_wc_webhooks)
+0008.092 (R) [notice] جدول البحث والاستبدال: wp_wc_webhooks: الصفوف: 0
+0008.092 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_api_keys - إستعادة على النحو التالي: zy_woocommerce_api_keys
+0008.134 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_api_keys)
+0008.137 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_api_keys) to final table name (wp_woocommerce_api_keys)
+0008.151 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_api_keys: الصفوف: 0
+0008.151 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_attribute_taxonomies - إستعادة على النحو التالي: zy_woocommerce_attribute_taxonomies
+0008.183 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_attribute_taxonomies)
+0008.186 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_attribute_taxonomies) to final table name (wp_woocommerce_attribute_taxonomies)
+0008.198 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_attribute_taxonomies: الصفوف: 0
+0008.198 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_downloadable_product_permissions - إستعادة على النحو التالي: zy_woocommerce_downloadable_product_permissions
+0008.246 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_downloadable_product_permissions)
+0008.250 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_downloadable_product_permissions) to final table name (wp_woocommerce_downloadable_product_permissions)
+0008.270 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_downloadable_product_permissions: الصفوف: 0
+0008.271 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_log - إستعادة على النحو التالي: zy_woocommerce_log
+0008.320 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_log)
+0008.325 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_log) to final table name (wp_woocommerce_log)
+0008.345 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_log: الصفوف: 0
+0008.345 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_order_itemmeta - إستعادة على النحو التالي: zy_woocommerce_order_itemmeta
+0008.393 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_order_itemmeta)
+0008.397 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_order_itemmeta) to final table name (wp_woocommerce_order_itemmeta)
+0008.415 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_order_itemmeta: الصفوف: 0
+0008.416 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_order_items - إستعادة على النحو التالي: zy_woocommerce_order_items
+0008.453 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_order_items)
+0008.457 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_order_items) to final table name (wp_woocommerce_order_items)
+0008.467 (R) [notice] Skipping this table: data in this table (wp_woocommerce_order_items) should not be search/replaced
+0008.467 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_payment_tokenmeta - إستعادة على النحو التالي: zy_woocommerce_payment_tokenmeta
+0008.504 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_payment_tokenmeta)
+0008.507 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_payment_tokenmeta) to final table name (wp_woocommerce_payment_tokenmeta)
+0008.519 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_payment_tokenmeta: الصفوف: 0
+0008.519 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_payment_tokens - إستعادة على النحو التالي: zy_woocommerce_payment_tokens
+0008.571 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_payment_tokens)
+0008.574 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_payment_tokens) to final table name (wp_woocommerce_payment_tokens)
+0008.593 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_payment_tokens: الصفوف: 0
+0008.593 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_sessions - إستعادة على النحو التالي: zy_woocommerce_sessions
+0008.637 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_sessions)
+0008.640 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_sessions) to final table name (wp_woocommerce_sessions)
+0008.652 (R) [notice] Skipping this table: data in this table (wp_woocommerce_sessions) should not be search/replaced
+0008.652 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_shipping_zone_locations - إستعادة على النحو التالي: zy_woocommerce_shipping_zone_locations
+0008.690 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zone_locations)
+0008.694 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_shipping_zone_locations) to final table name (wp_woocommerce_shipping_zone_locations)
+0008.711 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_shipping_zone_locations: الصفوف: 0
+0008.711 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_shipping_zone_methods - إستعادة على النحو التالي: zy_woocommerce_shipping_zone_methods
+0008.734 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zone_methods)
+0008.738 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_shipping_zone_methods) to final table name (wp_woocommerce_shipping_zone_methods)
+0008.753 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_shipping_zone_methods: الصفوف: 0
+0008.753 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_shipping_zones - إستعادة على النحو التالي: zy_woocommerce_shipping_zones
+0008.778 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_shipping_zones)
+0008.781 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_shipping_zones) to final table name (wp_woocommerce_shipping_zones)
+0008.794 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_shipping_zones: الصفوف: 0
+0008.795 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_tax_rate_locations - إستعادة على النحو التالي: zy_woocommerce_tax_rate_locations
+0008.844 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_tax_rate_locations)
+0008.848 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_tax_rate_locations) to final table name (wp_woocommerce_tax_rate_locations)
+0008.860 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_tax_rate_locations: الصفوف: 0
+0008.860 (R) [notice] جدول المعالجة (InnoDB):  wp_woocommerce_tax_rates - إستعادة على النحو التالي: zy_woocommerce_tax_rates
+0008.906 (R) [notice] Atomic restore: dropping original table (wp_woocommerce_tax_rates)
+0008.909 (R) [notice] Atomic restore: renaming new table (zy_woocommerce_tax_rates) to final table name (wp_woocommerce_tax_rates)
+0008.924 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_tax_rates: الصفوف: 0
+0008.925 (R) [notice] جدول المعالجة (InnoDB):  wp_wpfd_statistics - إستعادة على النحو التالي: zy_wpfd_statistics
+0008.978 (R) [notice] Atomic restore: dropping original table (wp_wpfd_statistics)
+0008.981 (R) [notice] Atomic restore: renaming new table (zy_wpfd_statistics) to final table name (wp_wpfd_statistics)
+0008.995 (R) [notice] جدول البحث والاستبدال: wp_wpfd_statistics: الصفوف: 1
+0008.996 (R) [notice] جدول المعالجة (InnoDB):  wp_wpfd_tokens - إستعادة على النحو التالي: zy_wpfd_tokens
+0009.012 (R) [notice] تعطيل وضع الصيانة &#8230;
+0009.012 (R) [notice] Atomic restore: dropping original table (wp_wpfd_tokens)
+0009.016 (R) [notice] Atomic restore: renaming new table (zy_wpfd_tokens) to final table name (wp_wpfd_tokens)
+0009.028 (R) [notice] جدول البحث والاستبدال: wp_wpfd_tokens: الصفوف: 0
+0009.029 (R) [notice] Finished: lines processed: 196 in 8.95 seconds
+0009.029 (R) [notice] تنظيف القمامة ...
+0009.031 (R) [notice] Database search and replace: replace http://localhost:81/test in backup dump with http://localhost/cont
+0009.031 (R) [notice] Database search and replace: replace http://www.localhost:81/test in backup dump with http://localhost/cont
+0009.032 (R) [notice] Database search and replace: replace https://www.localhost:81/test in backup dump with http://localhost/cont
+0009.032 (R) [notice] Database search and replace: replace https://localhost:81/test in backup dump with http://localhost/cont
+0009.032 (R) [notice] Database search and replace: replace C:\xampp\htdocs\test in backup dump with C:\laragon\www\cont
+0009.033 (R) [notice] جدول البحث والاستبدال: wp_actionscheduler_actions: قد فعلت
+0009.033 (R) [notice] جدول البحث والاستبدال: wp_actionscheduler_claims: قد فعلت
+0009.033 (R) [notice] جدول البحث والاستبدال: wp_actionscheduler_groups: قد فعلت
+0009.033 (R) [notice] جدول البحث والاستبدال: wp_actionscheduler_logs: قد فعلت
+0009.033 (R) [notice] جدول البحث والاستبدال: wp_commentmeta: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_comments: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_e_events: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_e_notes: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_e_notes_users_relations: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_e_submissions: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_e_submissions_actions_log: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_e_submissions_values: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_frmt_form_entry: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_frmt_form_entry_meta: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_frmt_form_reports: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_frmt_form_views: قد فعلت
+0009.034 (R) [notice] جدول البحث والاستبدال: wp_ju_queue: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_links: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_ninja_charts: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_ninja_table_items: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_options: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_postmeta: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_posts: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_revslider_css: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_revslider_layer_animations: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_revslider_navigations: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_revslider_sliders: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_revslider_sliders7: قد فعلت
+0009.035 (R) [notice] جدول البحث والاستبدال: wp_revslider_slides: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_revslider_slides7: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_revslider_static_slides: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_term_relationships: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_term_taxonomy: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_termmeta: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_terms: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_usermeta: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_users: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_wc_admin_note_actions: قد فعلت
+0009.036 (R) [notice] جدول البحث والاستبدال: wp_wc_admin_notes: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_category_lookup: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_customer_lookup: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_download_log: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_order_addresses: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_order_coupon_lookup: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_order_operational_data: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_order_product_lookup: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_order_stats: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_order_tax_lookup: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_orders: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_orders_meta: قد فعلت
+0009.037 (R) [notice] جدول البحث والاستبدال: wp_wc_product_attributes_lookup: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_wc_product_download_directories: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_wc_product_meta_lookup: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_wc_rate_limits: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_wc_reserved_stock: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_wc_tax_rate_classes: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_wc_webhooks: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_api_keys: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_attribute_taxonomies: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_downloadable_product_permissions: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_log: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_order_itemmeta: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_order_items: قد فعلت
+0009.038 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_payment_tokenmeta: قد فعلت
+0009.039 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_payment_tokens: قد فعلت
+0009.039 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_sessions: قد فعلت
+0009.039 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_shipping_zone_locations: قد فعلت
+0009.039 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_shipping_zone_methods: قد فعلت
+0009.039 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_shipping_zones: قد فعلت
+0009.039 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_tax_rate_locations: قد فعلت
+0009.039 (R) [notice] جدول البحث والاستبدال: wp_woocommerce_tax_rates: قد فعلت
+0009.039 (R) [notice] جدول البحث والاستبدال: wp_wpfd_statistics: قد فعلت
+0009.039 (R) [notice] جدول البحث والاستبدال: wp_wpfd_tokens: قد فعلت
+0009.042 (R) [notice] جدول البحث والاستبدال: wp_simply_static_pages: الصفوف: 1
+0009.042 (R) [notice] فحص الجداول: 71
+0009.043 (R) [notice] فحص الصفوف: 1972
+0009.043 (R) [notice] التغييرات التي تم إجراؤها: 486
+0009.043 (R) [notice] تشغيل اوامر تحديث SQL: 483
+0009.043 (R) [notice] الأخطاء: 0
+0009.043 (R) [notice] الوقت المستغرق (ثانية): 2.69
+0009.059 (R) [notice] تفريغ النسخ الاحتياطي ... (backup_2024-12-28-1815_localhost_test_2a2903afab30-plugins.zip, 76.4 MB)
+0009.723 (R) [notice] تقدم فك الضغط:2177بعيدا عن المكان15679ملفات (660 B, plugins/admin-menu-editor/ajax-wrapper/ajax-action-wrapper.d.ts)
+0012.796 (R) [notice] تقدم فك الضغط:3178بعيدا عن المكان15679ملفات (16 MB, plugins/codevz-plus/wpbakery/assets/js/360_degree.js)
+0020.679 (R) [notice] تقدم فك الضغط:4179بعيدا عن المكان15679ملفات (62 MB, plugins/elementor/core/editor/loader/v1/editor-v1-loader.php)
+0030.281 (R) [notice] تقدم فك الضغط:5180بعيدا عن المكان15679ملفات (77.8 MB, plugins/elementor-pro/assets/js/share-buttons.fda49c1691f4a352c7ef.bundle.js)
+0041.045 (R) [notice] تقدم فك الضغط:6181بعيدا عن المكان15679ملفات (84.8 MB, plugins/forminator v1.35.1/addons/pro/googlesheet/lib/external/Google/IO/cacerts.pem)
+0060.521 (R) [notice] تقدم فك الضغط:6992بعيدا عن المكان15679ملفات (106 MB, plugins/forminator v1.35.1/assets/js/front/templates/quiz/knowledge/global/quiz-container.html)
+0066.590 (R) [notice] تقدم فك الضغط:7993بعيدا عن المكان15679ملفات (126.7 MB, plugins/ninja-charts/vendor/wpfluent/framework/src/WPFluent/Database/Orm/Relations/MorphPivot.php)
+0075.588 (R) [notice] تقدم فك الضغط:8994بعيدا عن المكان15679ملفات (137.7 MB, plugins/ninja-tables-pro/assets/libs/icons/ellipsis-vertical-outline.svg)
+0081.093 (R) [notice] تقدم فك الضغط:9995بعيدا عن المكان15679ملفات (162.3 MB, plugins/pdfjs-viewer-for-elementor/trunk/assets/js/pdfjs/web/cmaps/Adobe-Korea1-0.bcmap)
+0084.544 (R) [notice] تقدم فك الضغط:10996بعيدا عن المكان15679ملفات (181.5 MB, plugins/revslider/public/assets/svg/busy-icons-svg/bonsai.svg)
+0090.779 (R) [notice] تقدم فك الضغط:11997بعيدا عن المكان15679ملفات (185.6 MB, plugins/revslider/public/css/fonts/material/MaterialIcons-Regular.svg)
+0093.837 (R) [notice] تقدم فك الضغط:12998بعيدا عن المكان15679ملفات (204.6 MB, plugins/updraftplus/includes/jstree/themes/default/40px.png)
+0102.129 (R) [notice] تقدم فك الضغط:13999بعيدا عن المكان15679ملفات (224.9 MB, plugins/user-role-editor/index.php)
+0108.960 (R) [notice] تقدم فك الضغط:15000بعيدا عن المكان15679ملفات (238.5 MB, plugins/wp-file-download/app/site/assets/icons/svg/icon-styles.css)
+0115.139 (R) [notice] تقدم فك الضغط:15679بعيدا عن المكان15679ملفات (243.5 MB, plugins/wp-file-download/wp-file-download.php)
+0115.150 (R) [notice] نقل البيانات القديمة بعيدا ...
+0116.425 (R) [notice] نقل النسخ الأحتياطى الذى تم فك حزمة الى المكان...
+0118.108 (R) [notice] تنظيف القمامة ...
+0118.122 (R) [notice] تفريغ النسخ الاحتياطي ... (backup_2024-12-28-1815_localhost_test_2a2903afab30-themes.zip, 23.8 MB)
+0119.499 (R) [notice] تقدم فك الضغط:1002بعيدا عن المكان1538ملفات (21.9 MB, themes/twentytwentyfive/patterns/services-subscriber-only-section.php)
+0123.369 (R) [notice] تقدم فك الضغط:1538بعيدا عن المكان1538ملفات (37.7 MB, themes/xtra-child/style.css)
+0123.371 (R) [notice] نقل البيانات القديمة بعيدا ...
+0123.417 (R) [notice] نقل النسخ الأحتياطى الذى تم فك حزمة الى المكان...
+0123.574 (R) [notice] تنظيف القمامة ...
+0123.585 (R) [notice] تفريغ النسخ الاحتياطي ... (backup_2024-12-28-1815_localhost_test_2a2903afab30-uploads.zip, 57.2 MB)
+0123.759 (R) [notice] تقدم فك الضغط:149بعيدا عن المكان149ملفات (59 MB, uploads/wpfdindex.html)
+0123.761 (R) [notice] نقل البيانات القديمة بعيدا ...
+0123.765 (R) [notice] نقل النسخ الأحتياطى الذى تم فك حزمة الى المكان...
+0123.821 (R) [notice] تنظيف القمامة ...
+0123.839 (R) [notice] تفريغ النسخ الاحتياطي ... (backup_2024-12-28-1815_localhost_test_2a2903afab30-others.zip, 1.3 MB)
+0124.637 (R) [notice] تقدم فك الضغط:166بعيدا عن المكان166ملفات (5.1 MB, wp-file-download/themes/wpfd-_/tpl.php)
+0124.647 (R) [notice] تنظيف القمامة ...
+0124.715 (R) [notice] Restore successful!

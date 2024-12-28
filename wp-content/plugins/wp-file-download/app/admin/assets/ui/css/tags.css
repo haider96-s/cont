@@ -1,0 +1,4 @@
+.wp-list-table.tags .column-posts a[href*="taxonomy=wpfd-tag"] {
+  pointer-events: none;
+  color: #50575e;
+}

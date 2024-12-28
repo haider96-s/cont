@@ -1,0 +1,5 @@
+{
+    "require": {
+        "wpify/custom-fields": "^3.9"
+    }
+}

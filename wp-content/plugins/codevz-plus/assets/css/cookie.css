@@ -1,0 +1,77 @@
+.xtra-cookie {
+	position: fixed;
+	display: none;
+	opacity: 1;
+	fill: #fff;
+	color: #fff;
+	width: 340px;
+	font-size: 15px;
+	line-height: 1.6;
+	text-align: center;
+	z-index: 999999999;
+	border-radius: 10px;
+	background: #282828;
+	padding: 0 30px 30px;
+	box-sizing: border-box;
+	box-shadow: 0px 0px 30px #3333333d
+}
+.xtra-cookie svg {
+	width: 72px;
+	margin-top: -50px;
+	fill: currentColor;
+	background: inherit;
+	border-radius: 100px;
+	padding: 15px
+}
+.xtra-cookie-bl {
+	left: 30px;
+	bottom: 25px
+}
+.xtra-cookie-br {
+	right: 30px;
+	bottom: 25px
+}
+.xtra-cookie-tl {
+	top: 25px;
+	left: 30px
+}
+.xtra-cookie-tr {
+	top: 25px;
+	right: 30px
+}
+.xtra-cookie span {
+	display: block;
+	margin: 0 0 30px
+}
+.xtra-cookie a {
+	font-weight: bold;
+	margin: 0 2px;
+	color: inherit
+}
+.xtra-cookie a.xtra-cookie-button {
+	font-size: 14px !important;
+	font-weight: 700;
+	cursor: pointer;
+	background: #282828;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 100px
+}
+.xtra-cookie a.xtra-cookie-button:hover {
+	opacity: .5
+}
+
+@media screen and (max-width: 768px) {
+
+	.xtra-cookie {
+		left: 50%;
+		width: 90%;
+		bottom: 15px;
+		padding: 0 20px 20px;
+		font-size: 14px;
+		line-height: 1.4;
+		text-align: center;
+		transform: translateX(-50%)
+	}
+
+}

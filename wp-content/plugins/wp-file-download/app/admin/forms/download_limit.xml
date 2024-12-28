@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST" action="admin.php?page=wpfd-config&amp;task=config.savedownloadlimitconfig">
+    <input
+            type="heading"
+            label="Download Limit"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="limit_the_download"
+            id="limit_the_download"
+            type="limitthedownload"
+            label="Limit the download"
+            value="0"
+            class="inputbox input-block-level ju-input"
+            tooltip="Limit the number of download per user that is assigned to this user group. You can limit the number of download for each file per user. Or limit the delay during which the files are available for the user."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+</form>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" id="wpfd_watermark_category_config">
+    <button value="×" type="button" class="wpfd-close wpfd-close-watermark-item"/>
+    <input
+            type="heading3"
+            label="Watermark"
+            value=""
+            class="ju-heading"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="containerstart"
+            label="Container section"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="leftpanelstart"
+            label="Left section start"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+        name="wm_category_path"
+        type="Watermarkcategorypath"
+        label="Select watermark image"
+        value=""
+        class="ju-input wm_category_path"
+        tooltip="Using your watermark file"
+        namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="wm_category_position"
+            type="select2"
+            label="Watermark position"
+            value="top_left"
+            class="ju-input"
+            tooltip="Select watermark position"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="top_left">Top Left</option>
+        <option value="top_center">Top Center</option>
+        <option value="top_right">Top Right</option>
+        <option value="center_left">Center Left</option>
+        <option value="center_center">Center Center</option>
+        <option value="center_right">Center Right</option>
+        <option value="bottom_left">Bottom Left</option>
+        <option value="bottom_center">Bottom Center</option>
+        <option value="bottom_right">Bottom Right</option>
+    </input>
+    <input
+            name="wm_category_opacity"
+            type="typeint"
+            label="Opacity (%)"
+            value="100"
+            class="ju-input"
+            tooltip="Set opacity for the watermark image"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+        name="wm_category_size"
+        type="typeint"
+        label="Watermark size (%)"
+        value="100"
+        class="ju-input"
+        tooltip="Setup the watermark size base on the source image size."
+        namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="wm_category_margin_unit"
+            type="select2"
+            label="Watermark unit"
+            value="%"
+            class="ju-input"
+            tooltip="Setup the watermark size base on the source image size."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="px">Pixcel (px)</option>
+        <option value="%">Percent (%)</option>
+    </input>
+    <input
+            type="containerend"
+            label="Container section"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="rightpanelstart"
+            label="Right section start"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="wm_category_margin_top"
+            type="typeint"
+            label="Margin Top"
+            value="0"
+            class="ju-input"
+            tooltip="Spacing from image top border to watermark."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+        name="wm_category_margin_right"
+        type="typeint"
+        label="Margin Right"
+        value="0"
+        class="ju-input"
+        tooltip="Spacing from image right border to watermark."
+        namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+        name="wm_category_margin_bottom"
+        type="typeint"
+        label="Margin Bottom"
+        value="0"
+        class="ju-input"
+        tooltip="Spacing from image bottom border to watermark."
+        namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+        name="wm_category_margin_left"
+        type="typeint"
+        label="Margin Left"
+        value="0"
+        class="ju-input"
+        tooltip="Spacing from image left border to watermark."
+        namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="wm_category_id"
+            type="hidden"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="containerend"
+            label="Container section"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="containerend"
+            label="Container section"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <button
+            type="button"
+            value="Save"
+            id="wpfd_save_watermark_category"
+            class="ju-button orange-button ju-button-inline"
+    />
+    <button
+            type="button"
+            value="Regenerate watermark"
+            id="wpfd_regenerate_watermark_category"
+            class="ju-button orange-outline-button ju-button-inline"
+    />
+    <input type="regeneratemodal" namespace="Joomunited\WP_File_Download\Admin\Fields\"/>
+</form>

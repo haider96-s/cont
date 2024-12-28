@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'wpfdicon';
+    src:  url('wpfd.eot?xxkehc');
+    src:  url('wpfd.eot?xxkehc#iefix') format('embedded-opentype'),
+    url('wpfd.ttf?xxkehc') format('truetype'),
+    url('wpfd.woff?xxkehc') format('woff'),
+    url('wpfd.svg?xxkehc#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+  font-family: 'wpfdawsicon';
+  src:  url('wpfdaws.eot?t9i2xj');
+  src:  url('wpfdaws.eot?t9i2xj#iefix') format('embedded-opentype'),
+    url('wpfdaws.ttf?t9i2xj') format('truetype'),
+    url('wpfdaws.woff?t9i2xj') format('woff'),
+    url('wpfdaws.svg?t9i2xj#wpfdaws') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.wpfd-all-file-category .wpfd-icon-dropbox:before {
+    content: "\e900"!important;
+}
+.wpfd-all-file-category .wpfd-icon-onedrive_business:before {
+    content: "\e901"!important;
+}
+.wpfd-all-file-category .wpfd-icon-onedrive:before {
+    content: "\e901"!important;
+}
+.wpfd-all-file-category .wpfd-icon-googleDrive:before {
+    content: "\e902"!important;
+}
+.wpfd-all-file-category .wpfd-icon-aws:before {
+  content: "\e903"!important;
+}
+.wpfd-all-file-category .wpfd-icon-nextcloud:before {
+  content: "\e905"!important;
+}
